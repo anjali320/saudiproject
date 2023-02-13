@@ -4,14 +4,13 @@ body
     padding: 0px;
     background-color:#111111;
 }
-section.top {
-    padding-top: 82px;
+.top {
+    margin-top: 75px;
 }
 .container
  {
     width: 100%;
-    max-width: 1200px;
-    margin: 0px auto;
+
 }
 .main_line 
 {
@@ -20,12 +19,13 @@ section.top {
     justify-content: center;
     border: 1px solid transparent;
     width: 100%;
-    max-width: 50%;
+    max-width: 30%;
     height: 4px;
     background-color: #24282C;
     margin: 0px auto;
 }
-.dot {
+.dot 
+{
     height: 12px;
     width: 12px;
     background-color: #ffff;
@@ -45,39 +45,42 @@ section.top {
     outline: 2px solid #111111;
 }
 
-.columns
- {
+.columns {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 65px;
-    justify-content: space-around;
-    height: 369px;
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .left_col
 {
     
-    height: 115px;
-    background: #24282C 0% 0% no-repeat padding-box;
     border-radius: 12px 12px 0px 0px;
+    margin: 65px 0px 0px 8px;
+    width: 30%;
+
 }
 .right_col
 { 
 
-    height: 115px;
-    background: #24282C 0% 0% no-repeat padding-box;
+
     border-radius: 12px 12px 0px 0px;
+    margin: 65px 8px 0px 0px;
+    width: 30%;
+
     
 }
-.heading {
+.heading
+ {
     font: normal normal bold 31px/37px RB;
     color: #ffff;
     display: flex;
-    flex-direction: column;
+    border-radius: 12px 12px 0px 0px;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    height: 115px;
-    width: 571px;
+    background: #24282C 0% 0% no-repeat padding-box;
+    padding: 28px;
+    margin-left: -2px;
 }
 ul.checkbox
  {
@@ -85,24 +88,30 @@ ul.checkbox
     list-style: none;
     color: white;
 }
-li {
+li
+ {
     list-style: none;
-    margin: 0px 10px;
-    text-align: left;
     font: normal normal normal 18px/22px RB;
+    margin: 0px 5px;
 }
 .items
  {
     border: 1px solid #24282C;
     border-radius: 0px 0px 12px 12px;
-    height: 127px;
-    width: 571px;
-
+    padding: 24px 0px;
+    margin: 0px;
+    width: 100%;
+    
 }
 .items ul {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
     color: #fff;
+    justify-content: center;
+    padding: 0px
+
+
 }
 button {
     
@@ -118,4 +127,34 @@ button {
     display: block;
     font: normal normal bold 27px/33px RB;
     color: #ffff;
+    cursor: pointer;
+}
+.btn 
+{
+    margin-top: 96px;
+}
+@media  (max-width: 720px)
+{
+    
+        .columns
+        {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.left_col
+{
+    width: 90%;
+}
+.right_col
+{
+    width: 90%;
+}
+.ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
