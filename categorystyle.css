@@ -94,6 +94,11 @@ li
     font: normal normal normal 18px/22px RB;
     margin: 0px 5px;
 }
+li img 
+{
+   
+    padding-right: 21px;
+}
 .items
  {
     border: 1px solid #24282C;
