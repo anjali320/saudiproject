@@ -1,0 +1,104 @@
+*
+{
+    margin: 0px;
+}
+body 
+{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+}
+.main {
+    margin-top: 163px;
+}
+.card 
+{
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 83px 0px 39px;
+    width: 30%;
+    border-radius: 30px;
+    background-color:#12A9C9;
+    background-image: url(./images/Group\ 119.png);
+    background-repeat: no-repeat;
+    background-size: 67% 102%;
+
+}
+.upper_img 
+{
+   
+    position: absolute;
+    top: -68px;
+    background-color: black;
+    border-radius: 50%;
+}
+h1.text
+ {
+    color: #ffff;
+    font: normal normal bold 31px/38px RB;
+ }
+
+ img.logo
+  {
+    padding: 7px;
+  } 
+  .paragraph 
+  {
+    padding: 16px 0px 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.lastline 
+{
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 19px;
+}
+.lastline p 
+{
+    font: normal normal bold 12px/14px RB;
+}
+.btn 
+{
+    margin-top: 60px;
+}
+button 
+{
+    height: 57px;
+    border-radius: 18px;
+    background-color: #12A9C9;
+    margin: 0px auto;
+    width: 100%;
+    display: block;
+    max-width: 188px;
+    text-align: center;
+    align-items: center;
+    font: normal normal bold 27px/33px RB;
+    color: #ffff;
+    cursor: pointer;
+}
+@media  (max-width: 540px)
+{
+    .card
+    {
+        width: 90%;
+    
+    }
+}
+
+@media  (max-width: 720px)
+{
+    .card
+    {
+        width: 90%;
+    
+    }
+}
